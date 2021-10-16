@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gochi+Hand">
+        <title>Sell your soul</title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="title">
+                <h1 class="gradient-text">SELL YOUR SOUL</h1>
+                <p>Besoin d'argent rapidemment? D'une petite amie? De rescussiter un proche? Pas de soucis, il suffit de vendre votre âme au Diable. Pour cela rien de plus simple, remplissez juste le formulaire ci-dessous, et notre équipe se chargera de tout!</p>
+                <button class="join"><a href="https://www.google.com">A PROPOS</a></button>
+            </div>
+
+            <form action="#" method="get" name="mainform" id="mainform">
+                <div>
+                    <label for="nom">Nom de famille: </label>
+                    <input type="text" name="nom" id="nom" placeholder="Votre nom de famille" required>
+                </div>
+        
+                <div>
+                    <label for="prenom">Prénom: </label>
+                    <input type="text" name="prenom" id="prenom" placeholder="Votre prénom" required>
+                </div>
+
+                <div>
+                    <p>Indiquez votre sexe:
+                    <input type="radio" name="sexe" id="homme">
+                    <label for="homme">Homme</label>
+                    <input type="radio" name="sexe" id="femme">
+                    <label for="femme">Femme</label>
+                    <input type="radio" name="sexe" id="nonBinaire">
+                    <label for="nonBinaire">Non Binaire</label>
+                    </p>
+                </div>
+    
+                <div>
+                    <label for="dateNaissance">Date de naissance: </label>
+                    <input type="date" name="dateNaissance" id="dateNaissance" required>
+                </div>
+        
+                <div>
+                    <label for="lieuDeNaissance">Lieu de naissance: </label>
+                    <input type="text" name="lieuDeNaissance" id="lieuDeNaissance" placeholder="Lieu de naissance" required>
+                </div>
+        
+                <div>
+                    <label for="pays">Choissisez votre pays: </label>
+                    <select name="pays" id ="pays">
+                        <optgroup label="Europe 🇪🇺">
+                            <option value="allemagne">Allemagne 🇩🇪</option>
+                            <option value="belgique">Belgique 🇧🇪</option>
+                            <option value="france">France 🇫🇷</option>
+                            <option value="italie">Italie 🇮🇹</option>
+                            <option value="luxembourg">Luxembourg 🇱🇺</option>
+                            <option value="autre">Autre pays d'Europe</option>
+                        </optgroup>
+                        <optgroup label="Pays d'Afrique">
+                            <option value="Algérie">Algérie 🇩🇿</option>
+                        </optgroup>
+                    </select>
+                </div>
+            
+                <div>
+                    <label for="commentaire">Votre demande au Diable: </label>
+                    <textarea name="commentaire" id="commentaire" cols="30" rows="3" required></textarea>
+                </div>
+        
+                <div>
+                    <input type="checkbox" id="accept" required>
+                    <label for="accept">J'accepte de donner mon âme au diable en échange de ma requête.</label>
+                </div>
+        
+                <div>
+                    <input type="submit" value="Envoyer">
+                </div>
+            </form>
+            <script>
+                document.getElementById("mainform").addEventListener("submit",function(){
+                    alert("Votre demande à été accepté et sera traité sous le millénaire! Merci de votre compréhension.");
+                });
+            </script>
+        </div>
+    </body>
+</html>
