@@ -1,12 +1,12 @@
 /*Importation des polices personnalisés*/
 @font-face {
     font-family: HandWrite;
-    src: url(/Fonts/Thin\ Pencil\ Handwriting.ttf);
+    src: url(https://github.com/Web-Kiki/SellYourSoul/blob/main/Fonts/SNTS%20MouseLaak%20TP.ttf);
 }
 
 @font-face {
     font-family: HandWrite2;
-    src: url(/Fonts/SNTS\ MouseLaak\ TP.ttf);
+    src: url(https://github.com/Web-Kiki/SellYourSoul/blob/main/Fonts/Thin%20Pencil%20Handwriting.ttf);
 }
 
 
@@ -35,7 +35,7 @@ html
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("/Img/parchemin.png");
+    background-image: url("https://github.com/Web-Kiki/SellYourSoul/blob/main/Img/parchemin.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
