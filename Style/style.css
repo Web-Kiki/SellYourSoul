@@ -1,6 +1,6 @@
-
-
 /*Importation des polices personnalisés*/
+
+@import url("https://fonts.googleapis.com/css?family=Gochi+Hand");
 @font-face 
 {
     font-family: HandWrite;
@@ -185,6 +185,7 @@ select
 {
     width: 100px;
     height: 100px;
+    padding-bottom: 100px;
     margin-right: 20%;
     margin-left: 80%;
 }
