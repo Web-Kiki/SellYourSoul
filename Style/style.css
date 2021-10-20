@@ -41,7 +41,7 @@ html
     margin-right: auto;
     background-image: url("Img/parchemin.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 200%;
 }
 
 /*Style du titre*/
@@ -49,7 +49,6 @@ html
 {
   text-align: center;
   font-family: HandWrite;
-  font-size: 40px;
   width: 80vw;
   padding-top: 30vh;
   margin-left: auto;
@@ -62,6 +61,7 @@ html
     background-image: linear-gradient(#000000, #ba181b);
     background-size: 100%;
     background-clip: text;
+    font-size: 80px;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
@@ -111,6 +111,11 @@ form
     width: 55%;
     margin-right: auto;
     margin-left: auto;
+}
+
+div
+{
+    padding-top: 10px;
 }
 
 form > div label, form > div p 
